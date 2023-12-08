@@ -5,6 +5,7 @@ const fs = require("fs");
 const app = express();
 const PORT = 3000;
 
+app.set('views', path.join('D:\dna_project_submission\dna_project_submission\Group_3_Source_Code\Group_3_Source_Code\views', ''));
 app.set("view engine", "ejs");
 app.use(express.static("public"));
 
